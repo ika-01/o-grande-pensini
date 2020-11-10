@@ -18,7 +18,7 @@ let change = function(){
 
     //Para depois de chegar aos 100
     changeCallCount++;
-    if(changeCallCount > 100){
+    if(changeCallCount > 10){
         clearInterval(interval);
         changeCallCount = 0;
 
